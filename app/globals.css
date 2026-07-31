@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --winsip-primary: #e8552b;
+  --winsip-accent: #7a1e1e;
+  --winsip-background: #ffffff;
+  --winsip-text: #1a1a1a;
+  --winsip-primary-soft: color-mix(in srgb, var(--winsip-primary) 12%, white);
+  --winsip-accent-soft: color-mix(in srgb, var(--winsip-accent) 9%, white);
+  --winsip-border: color-mix(in srgb, var(--winsip-text) 12%, transparent);
+}
+
+@theme inline {
+  --color-primary: var(--winsip-primary);
+  --color-accent: var(--winsip-accent);
+  --color-background: var(--winsip-background);
+  --color-text: var(--winsip-text);
+  --color-primary-soft: var(--winsip-primary-soft);
+  --color-accent-soft: var(--winsip-accent-soft);
+  --color-border-soft: var(--winsip-border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--winsip-background);
+  color: var(--winsip-text);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+@keyframes winsip-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.winsip-fade-in {
+  animation: winsip-fade-in 0.2s ease-out;
+}

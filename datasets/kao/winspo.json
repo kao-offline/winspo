@@ -1,0 +1,975 @@
+{
+  "name": "kao",
+  "version": "1.0.0",
+  "description": "A broad mix of 44 real website styles.",
+  "items": [
+    {
+      "id": 1,
+      "slot": 0,
+      "title": "Amna Javed",
+      "url": "https://amnajaved.com/",
+      "media": {
+        "thumbnail": "assets/amnajaved-thumb.webp",
+        "fullpage": "assets/amnajaved-fullpage.webp",
+        "video": "assets/amnajaved-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 2,
+      "slot": 1,
+      "title": "Atlantic",
+      "url": "https://atlantic.vc/",
+      "media": {
+        "thumbnail": "assets/atlantic-thumb.webp",
+        "fullpage": "assets/atlantic-fullpage.webp",
+        "video": "assets/atlantic-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 3,
+      "slot": 2,
+      "title": "Axis Group",
+      "url": "https://axisgroup.xyz/",
+      "media": {
+        "thumbnail": "assets/axisgroup-thumb.webp",
+        "fullpage": "assets/axisgroup-fullpage.webp",
+        "video": "assets/axisgroup-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 4,
+      "slot": 3,
+      "title": "Brand Appart",
+      "url": "https://www.brandappart.com/",
+      "media": {
+        "thumbnail": "assets/brandappart-thumb.webp",
+        "fullpage": "assets/brandappart-fullpage.webp",
+        "video": "assets/brandappart-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 5,
+      "slot": 4,
+      "title": "Contra Labs",
+      "url": "https://contralabs.com/",
+      "media": {
+        "thumbnail": "assets/contralabs-thumb.webp",
+        "fullpage": "assets/contralabs-fullpage.webp",
+        "video": "assets/contralabs-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 6,
+      "slot": 5,
+      "title": "Cosmos",
+      "url": "https://www.cosmos.so/",
+      "media": {
+        "thumbnail": "assets/cosmos-thumb.webp",
+        "fullpage": "assets/cosmos-fullpage.webp",
+        "video": "assets/cosmos-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 7,
+      "slot": 6,
+      "title": "Creative South 2026",
+      "url": "https://www.creativesouth.com/",
+      "media": {
+        "thumbnail": "assets/creativesouth2026-thumb.webp",
+        "fullpage": "assets/creativesouth2026-fullpage.webp",
+        "video": "assets/creativesouth2026-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "event"
+      }
+    },
+    {
+      "id": 8,
+      "slot": 7,
+      "title": "Doodles",
+      "url": "https://www.doodles.app/",
+      "media": {
+        "thumbnail": "assets/doodles-thumb.webp",
+        "fullpage": "assets/doodles-fullpage.webp",
+        "video": "assets/doodles-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 9,
+      "slot": 8,
+      "title": "FIGUREFILM",
+      "url": "https://figurefilm.co.uk/",
+      "media": {
+        "thumbnail": "assets/figurefilm-thumb.webp",
+        "fullpage": "assets/figurefilm-fullpage.webp",
+        "video": "assets/figurefilm-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "vibrant"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 10,
+      "slot": 9,
+      "title": "Flim",
+      "url": "https://flim.ai/",
+      "media": {
+        "thumbnail": "assets/flim-thumb.webp",
+        "fullpage": "assets/flim-fullpage.webp",
+        "video": "assets/flim-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 11,
+      "slot": 10,
+      "title": "Huehaus Agency",
+      "url": "https://huehaus.design/",
+      "media": {
+        "thumbnail": "assets/huehausagency-thumb.webp",
+        "fullpage": "assets/huehausagency-fullpage.webp",
+        "video": "assets/huehausagency-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 12,
+      "slot": 11,
+      "title": "Humble",
+      "url": "https://humbleops.ai/",
+      "media": {
+        "thumbnail": "assets/humble-thumb.webp",
+        "fullpage": "assets/humble-fullpage.webp",
+        "video": "assets/humble-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 13,
+      "slot": 12,
+      "title": "Interlude",
+      "url": "https://interludeapp.net/",
+      "media": {
+        "thumbnail": "assets/interlude-thumb.webp",
+        "fullpage": "assets/interlude-fullpage.webp",
+        "video": "assets/interlude-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 14,
+      "slot": 13,
+      "title": "Juan Mora",
+      "url": "https://juanmora.co/",
+      "media": {
+        "thumbnail": "assets/juanmora-thumb.webp",
+        "fullpage": "assets/juanmora-fullpage.webp",
+        "video": "assets/juanmora-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 15,
+      "slot": 14,
+      "title": "Lama Lama",
+      "url": "https://lamalama.com/",
+      "media": {
+        "thumbnail": "assets/lamalama-thumb.webp",
+        "fullpage": "assets/lamalama-fullpage.webp",
+        "video": "assets/lamalama-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 16,
+      "slot": 15,
+      "title": "Lobb’s Padel",
+      "url": "https://lobbspadel.com/",
+      "media": {
+        "thumbnail": "assets/lobbspadel-thumb.webp",
+        "fullpage": "assets/lobbspadel-fullpage.webp",
+        "video": "assets/lobbspadel-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 17,
+      "slot": 16,
+      "title": "Luffu",
+      "url": "https://luffu.com/",
+      "media": {
+        "thumbnail": "assets/luffu-thumb.webp",
+        "fullpage": "assets/luffu-fullpage.webp",
+        "video": "assets/luffu-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 18,
+      "slot": 17,
+      "title": "Marblex",
+      "url": "https://www.marblex.io/en",
+      "media": {
+        "thumbnail": "assets/marblex-thumb.webp",
+        "fullpage": "assets/marblex-fullpage.webp",
+        "video": "assets/marblex-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 19,
+      "slot": 18,
+      "title": "MindMarket",
+      "url": "https://mindmarket.com/",
+      "media": {
+        "thumbnail": "assets/mindmarket-thumb.webp",
+        "fullpage": "assets/mindmarket-fullpage.webp",
+        "video": "assets/mindmarket-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 20,
+      "slot": 19,
+      "title": "Mojo Studio",
+      "url": "https://mojostudio.co/",
+      "media": {
+        "thumbnail": "assets/mojostudio-thumb.webp",
+        "fullpage": "assets/mojostudio-fullpage.webp",
+        "video": "assets/mojostudio-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 21,
+      "slot": 20,
+      "title": "MoMoney",
+      "url": "https://www.museumofmoney.com/",
+      "media": {
+        "thumbnail": "assets/momoney-thumb.webp",
+        "fullpage": "assets/momoney-fullpage.webp",
+        "video": "assets/momoney-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 22,
+      "slot": 21,
+      "title": "Monolog",
+      "url": "https://bymonolog.com/",
+      "media": {
+        "thumbnail": "assets/monolog-thumb.webp",
+        "fullpage": "assets/monolog-fullpage.webp",
+        "video": "assets/monolog-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "low",
+        "typography": "serif",
+        "category": "product"
+      }
+    },
+    {
+      "id": 23,
+      "slot": 22,
+      "title": "Monologue",
+      "url": "https://www.monologue.to/",
+      "media": {
+        "thumbnail": "assets/monologue-thumb.webp",
+        "fullpage": "assets/monologue-fullpage.webp",
+        "video": "assets/monologue-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 24,
+      "slot": 23,
+      "title": "Mün Rooftop Rome",
+      "url": "https://munrooftoprome.com/",
+      "media": {
+        "thumbnail": "assets/munrooftoprome-thumb.webp",
+        "fullpage": "assets/munrooftoprome-fullpage.webp",
+        "video": "assets/munrooftoprome-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "hospitality"
+      }
+    },
+    {
+      "id": 25,
+      "slot": 24,
+      "title": "Offsite",
+      "url": "https://www.off.site/",
+      "media": {
+        "thumbnail": "assets/offsite-thumb.webp",
+        "fullpage": "assets/offsite-fullpage.webp",
+        "video": "assets/offsite-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 26,
+      "slot": 25,
+      "title": "Ogaki Digital",
+      "url": "https://www.ogakidigital.com/",
+      "media": {
+        "thumbnail": "assets/ogakidigital-thumb.webp",
+        "fullpage": "assets/ogakidigital-fullpage.webp",
+        "video": "assets/ogakidigital-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 27,
+      "slot": 26,
+      "title": "OWO",
+      "url": "https://owo.app/",
+      "media": {
+        "thumbnail": "assets/owo-thumb.webp",
+        "fullpage": "assets/owo-fullpage.webp",
+        "video": "assets/owo-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 28,
+      "slot": 27,
+      "title": "Quoti",
+      "url": "https://www.getquoti.ai/",
+      "media": {
+        "thumbnail": "assets/quoti-thumb.webp",
+        "fullpage": "assets/quoti-fullpage.webp",
+        "video": "assets/quoti-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 29,
+      "slot": 28,
+      "title": "Ragged Edge",
+      "url": "https://raggededge.com/",
+      "media": {
+        "thumbnail": "assets/raggededge-thumb.webp",
+        "fullpage": "assets/raggededge-fullpage.webp",
+        "video": "assets/raggededge-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 30,
+      "slot": 29,
+      "title": "SAMI",
+      "url": "https://sami.marketing/en",
+      "media": {
+        "thumbnail": "assets/sami-thumb.webp",
+        "fullpage": "assets/sami-fullpage.webp",
+        "video": "assets/sami-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 31,
+      "slot": 30,
+      "title": "Satius",
+      "url": "https://www.satius.app/",
+      "media": {
+        "thumbnail": "assets/satius-thumb.webp",
+        "fullpage": "assets/satius-fullpage.webp",
+        "video": "assets/satius-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 32,
+      "slot": 31,
+      "title": "Selvin Cortez",
+      "url": "https://selvincortez.com/",
+      "media": {
+        "thumbnail": "assets/selvincortez-thumb.webp",
+        "fullpage": "assets/selvincortez-fullpage.webp",
+        "video": "assets/selvincortez-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 33,
+      "slot": 32,
+      "title": "Solidroad",
+      "url": "https://www.solidroad.com/",
+      "media": {
+        "thumbnail": "assets/solidroad-thumb.webp",
+        "fullpage": "assets/solidroad-fullpage.webp",
+        "video": "assets/solidroad-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 34,
+      "slot": 33,
+      "title": "Structured Money",
+      "url": "structured.money",
+      "media": {
+        "thumbnail": "assets/structuredmoney-thumb.webp",
+        "fullpage": "assets/structuredmoney-fullpage.webp",
+        "video": "assets/structuredmoney-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 35,
+      "slot": 34,
+      "title": "Synthesis",
+      "url": "https://www.synthesis.partners/",
+      "media": {
+        "thumbnail": "assets/synthesis-thumb.webp",
+        "fullpage": "assets/synthesis-fullpage.webp",
+        "video": "assets/synthesis-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 36,
+      "slot": 35,
+      "title": "Taste Labs",
+      "url": "https://tastelabs.com/",
+      "media": {
+        "thumbnail": "assets/tastelabs-thumb.webp",
+        "fullpage": "assets/tastelabs-fullpage.webp",
+        "video": "assets/tastelabs-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 37,
+      "slot": 36,
+      "title": "Tavus",
+      "url": "https://www.tavus.io/",
+      "media": {
+        "thumbnail": "assets/tavus-thumb.webp",
+        "fullpage": "assets/tavus-fullpage.webp",
+        "video": "assets/tavus-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 38,
+      "slot": 37,
+      "title": "Tesoro",
+      "url": "https://www.tesoroxp.com/",
+      "media": {
+        "thumbnail": "assets/tesoro-thumb.webp",
+        "fullpage": "assets/tesoro-fullpage.webp",
+        "video": "assets/tesoro-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 39,
+      "slot": 38,
+      "title": "Tinker",
+      "url": "https://www.tinker.com/",
+      "media": {
+        "thumbnail": "assets/tinker-thumb.webp",
+        "fullpage": "assets/tinker-fullpage.webp",
+        "video": "assets/tinker-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 40,
+      "slot": 39,
+      "title": "TinyWins",
+      "url": "https://www.tinywins.com/",
+      "media": {
+        "thumbnail": "assets/tinywins-thumb.webp",
+        "fullpage": "assets/tinywins-fullpage.webp",
+        "video": "assets/tinywins-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 41,
+      "slot": 40,
+      "title": "Truus",
+      "url": "https://truus.co/",
+      "media": {
+        "thumbnail": "assets/truus-thumb.webp",
+        "fullpage": "assets/truus-fullpage.webp",
+        "video": "assets/truus-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 42,
+      "slot": 41,
+      "title": "Usefoulplay",
+      "url": "https://www.usefoulplay.com/",
+      "media": {
+        "thumbnail": "assets/usefoulplay-thumb.webp",
+        "fullpage": "assets/usefoulplay-fullpage.webp",
+        "video": "assets/usefoulplay-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 43,
+      "slot": 42,
+      "title": "Vovy",
+      "url": "https://www.vovy.ai/",
+      "media": {
+        "thumbnail": "assets/vovy-thumb.webp",
+        "fullpage": "assets/vovy-fullpage.webp",
+        "video": "assets/vovy-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "cool",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 44,
+      "slot": 43,
+      "title": "WaxyWeb",
+      "url": "https://www.waxyweb.agency/",
+      "media": {
+        "thumbnail": "assets/waxyweb-thumb.webp",
+        "fullpage": "assets/waxyweb-fullpage.webp",
+        "video": "assets/waxyweb-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    }
+  ]
+}
