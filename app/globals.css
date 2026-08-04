@@ -46,3 +46,21 @@ body {
 .winsip-fade-in {
   animation: winsip-fade-in 0.2s ease-out;
 }
+
+@keyframes winsip-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 rgba(232, 85, 43, 0.55),
+      0 0 0 4px rgba(0, 0, 0, 0.35);
+  }
+  50% {
+    box-shadow:
+      0 0 0 10px rgba(232, 85, 43, 0),
+      0 0 0 4px rgba(0, 0, 0, 0.35);
+  }
+}
+
+.winsip-pulse {
+  animation: winsip-pulse 1.6s ease-in-out infinite;
+}

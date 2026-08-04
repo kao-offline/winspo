@@ -16,6 +16,7 @@ export default async function ByoDatasetPage({
   const source = `byo/${user}/${repo}`;
   const embed = query.embed === "true";
   const initialCode = typeof query.code === "string" ? query.code : undefined;
+  const lang = typeof query.lang === "string" ? query.lang : undefined;
 
   return (
     <DatasetAppShell
@@ -23,6 +24,7 @@ export default async function ByoDatasetPage({
       mode="gallery"
       embed={embed}
       initialCode={initialCode}
+      lang={lang}
     />
   );
 }

@@ -1,0 +1,2229 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "A broad mix of 103 real website styles.",
+  "items": [
+    {
+      "id": 1,
+      "slot": 0,
+      "title": "1:30 Studio",
+      "url": "https://www.130studio.com/",
+      "media": {
+        "thumbnail": "assets/130studio-thumb.webp",
+        "fullpage": "assets/130studio-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 2,
+      "slot": 1,
+      "title": "Aave",
+      "url": "https://aave.com/",
+      "media": {
+        "thumbnail": "assets/aave-thumb.webp",
+        "fullpage": "assets/aave-fullpage.webp",
+        "video": "assets/aave-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 3,
+      "slot": 2,
+      "title": "Aeons",
+      "url": "https://aeons.xyz/",
+      "media": {
+        "thumbnail": "assets/aeons-thumb.webp",
+        "fullpage": "assets/aeons-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 4,
+      "slot": 3,
+      "title": "Amna Javed",
+      "url": "https://amnajaved.com/",
+      "media": {
+        "thumbnail": "assets/amnajaved-thumb.webp",
+        "fullpage": "assets/amnajaved-fullpage.webp",
+        "video": "assets/amnajaved-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 5,
+      "slot": 4,
+      "title": "Analogue",
+      "url": "https://analogueagency.com/",
+      "media": {
+        "thumbnail": "assets/analogue-thumb.webp",
+        "fullpage": "assets/analogue-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 6,
+      "slot": 5,
+      "title": "Aptos",
+      "url": "https://aptosnetwork.com/",
+      "media": {
+        "thumbnail": "assets/aptos-thumb.webp",
+        "fullpage": "assets/aptos-fullpage.webp",
+        "video": "assets/aptos-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 7,
+      "slot": 6,
+      "title": "Atlantic",
+      "url": "https://atlantic.vc/",
+      "media": {
+        "thumbnail": "assets/atlantic-thumb.webp",
+        "fullpage": "assets/atlantic-fullpage.webp",
+        "video": "assets/atlantic-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 8,
+      "slot": 7,
+      "title": "Axis Group",
+      "url": "https://axisgroup.xyz/",
+      "media": {
+        "thumbnail": "assets/axisgroup-thumb.webp",
+        "fullpage": "assets/axisgroup-fullpage.webp",
+        "video": "assets/axisgroup-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 9,
+      "slot": 8,
+      "title": "Beaucoup",
+      "url": "https://beaucoup.studio/en/",
+      "media": {
+        "thumbnail": "assets/beaucoup-thumb.webp",
+        "fullpage": "assets/beaucoup-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 10,
+      "slot": 9,
+      "title": "Brand Appart",
+      "url": "https://www.brandappart.com/",
+      "media": {
+        "thumbnail": "assets/brandappart-thumb.webp",
+        "fullpage": "assets/brandappart-fullpage.webp",
+        "video": "assets/brandappart-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 11,
+      "slot": 10,
+      "title": "Busy Bee Honey",
+      "url": "https://www.busybeehoney.com/",
+      "media": {
+        "thumbnail": "assets/busybeehoney-thumb.webp",
+        "fullpage": "assets/busybeehoney-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 12,
+      "slot": 11,
+      "title": "Caligra",
+      "url": "https://caligra.com/",
+      "media": {
+        "thumbnail": "assets/caligra-thumb.webp",
+        "fullpage": "assets/caligra-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "art"
+      }
+    },
+    {
+      "id": 13,
+      "slot": 12,
+      "title": "Celo",
+      "url": "https://celo.org/",
+      "media": {
+        "thumbnail": "assets/celo-thumb.webp",
+        "fullpage": "assets/celo-fullpage.webp",
+        "video": "assets/celo-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 14,
+      "slot": 13,
+      "title": "CHD ART MAKER",
+      "url": "https://www.chdartmaker.com/en",
+      "media": {
+        "thumbnail": "assets/chdartmaker-thumb.webp",
+        "fullpage": "assets/chdartmaker-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "art"
+      }
+    },
+    {
+      "id": 15,
+      "slot": 14,
+      "title": "Chipsa",
+      "url": "https://chipsa.design/",
+      "media": {
+        "thumbnail": "assets/chipsa-thumb.webp",
+        "fullpage": "assets/chipsa-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 16,
+      "slot": 15,
+      "title": "Cloudflare Workers",
+      "url": "https://workers.cloudflare.com/",
+      "media": {
+        "thumbnail": "assets/cloudflareworkers-thumb.webp",
+        "fullpage": "assets/cloudflareworkers-fullpage.webp",
+        "video": "assets/cloudflareworkers-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 17,
+      "slot": 16,
+      "title": "COLLINS",
+      "url": "https://wearecollins.com/",
+      "media": {
+        "thumbnail": "assets/collins-thumb.webp",
+        "fullpage": "assets/collins-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 18,
+      "slot": 17,
+      "title": "Contra Labs",
+      "url": "https://contralabs.com/",
+      "media": {
+        "thumbnail": "assets/contralabs-thumb.webp",
+        "fullpage": "assets/contralabs-fullpage.webp",
+        "video": "assets/contralabs-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 19,
+      "slot": 18,
+      "title": "Cory Grossman",
+      "url": "https://www.corygrossman.co/",
+      "media": {
+        "thumbnail": "assets/corygrossman-thumb.webp",
+        "fullpage": "assets/corygrossman-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "sans",
+        "category": "photography"
+      }
+    },
+    {
+      "id": 20,
+      "slot": 19,
+      "title": "Cosmos",
+      "url": "https://www.cosmos.so/",
+      "media": {
+        "thumbnail": "assets/cosmos-thumb.webp",
+        "fullpage": "assets/cosmos-fullpage.webp",
+        "video": "assets/cosmos-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 21,
+      "slot": 20,
+      "title": "COVEO",
+      "url": "https://coveomusic.com/",
+      "media": {
+        "thumbnail": "assets/coveo-thumb.webp",
+        "fullpage": "assets/coveo-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "music"
+      }
+    },
+    {
+      "id": 22,
+      "slot": 21,
+      "title": "Cowboy Space",
+      "url": "https://www.cowboyspace.com/",
+      "media": {
+        "thumbnail": "assets/cowboyspace-thumb.webp",
+        "fullpage": "assets/cowboyspace-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "sports"
+      }
+    },
+    {
+      "id": 23,
+      "slot": 22,
+      "title": "Creative South 2026",
+      "url": "https://www.creativesouth.com/",
+      "media": {
+        "thumbnail": "assets/creativesouth2026-thumb.webp",
+        "fullpage": "assets/creativesouth2026-fullpage.webp",
+        "video": "assets/creativesouth2026-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "event"
+      }
+    },
+    {
+      "id": 24,
+      "slot": 23,
+      "title": "darkroom.engineering",
+      "url": "https://darkroom.engineering/",
+      "media": {
+        "thumbnail": "assets/darkroomengineering-thumb.webp",
+        "fullpage": "assets/darkroomengineering-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "vibrant"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 25,
+      "slot": 24,
+      "title": "David Alaba",
+      "url": "https://www.davidalaba.com/",
+      "media": {
+        "thumbnail": "assets/davidalaba-thumb.webp",
+        "fullpage": "assets/davidalaba-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "sports"
+      }
+    },
+    {
+      "id": 26,
+      "slot": 25,
+      "title": "/dev/notion",
+      "url": "https://www.notion.com/product/dev",
+      "media": {
+        "thumbnail": "assets/devnotion-thumb.webp",
+        "fullpage": "assets/devnotion-fullpage.webp",
+        "video": "assets/devnotion-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "cool",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 27,
+      "slot": 26,
+      "title": "Docemil Music",
+      "url": "https://www.docemilmusic.com/",
+      "media": {
+        "thumbnail": "assets/docemilmusic-thumb.webp",
+        "fullpage": "assets/docemilmusic-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "vibrant"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "music"
+      }
+    },
+    {
+      "id": 28,
+      "slot": 27,
+      "title": "Doodles",
+      "url": "https://www.doodles.app/",
+      "media": {
+        "thumbnail": "assets/doodles-thumb.webp",
+        "fullpage": "assets/doodles-fullpage.webp",
+        "video": "assets/doodles-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 29,
+      "slot": 28,
+      "title": "Dryft",
+      "url": "https://dryft.ai/",
+      "media": {
+        "thumbnail": "assets/dryft-thumb.webp",
+        "fullpage": "assets/dryft-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "cool",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "photography"
+      }
+    },
+    {
+      "id": 30,
+      "slot": 29,
+      "title": "Elle & Riley",
+      "url": "https://elleandriley.com/",
+      "media": {
+        "thumbnail": "assets/elleriley-thumb.webp",
+        "fullpage": "assets/elleriley-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "fashion"
+      }
+    },
+    {
+      "id": 31,
+      "slot": 30,
+      "title": "Ethena",
+      "url": "https://ethena.fi/",
+      "media": {
+        "thumbnail": "assets/ethena-thumb.webp",
+        "fullpage": "assets/ethena-fullpage.webp",
+        "video": "assets/ethena-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 32,
+      "slot": 31,
+      "title": "FIGUREFILM",
+      "url": "https://figurefilm.co.uk/",
+      "media": {
+        "thumbnail": "assets/figurefilm-thumb.webp",
+        "fullpage": "assets/figurefilm-fullpage.webp",
+        "video": "assets/figurefilm-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "vibrant"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 33,
+      "slot": 32,
+      "title": "Flesh and Bones",
+      "url": "https://wearefleshandbones.com/",
+      "media": {
+        "thumbnail": "assets/fleshandbones-thumb.webp",
+        "fullpage": "assets/fleshandbones-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "vibrant"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 34,
+      "slot": 33,
+      "title": "Flim",
+      "url": "https://flim.ai/",
+      "media": {
+        "thumbnail": "assets/flim-thumb.webp",
+        "fullpage": "assets/flim-fullpage.webp",
+        "video": "assets/flim-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 35,
+      "slot": 34,
+      "title": "Frequency Breathwork",
+      "url": "https://frequencybreathwork.com/",
+      "media": {
+        "thumbnail": "assets/frequencybreathwork-thumb.webp",
+        "fullpage": "assets/frequencybreathwork-fullpage.webp",
+        "video": "assets/frequencybreathwork-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "display-serif",
+        "category": "wellness"
+      }
+    },
+    {
+      "id": 36,
+      "slot": 35,
+      "title": "Fun and Awe",
+      "url": "https://www.fun-and-awe.io/",
+      "media": {
+        "thumbnail": "assets/funandawe-thumb.webp",
+        "fullpage": "assets/funandawe-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 37,
+      "slot": 36,
+      "title": "Further",
+      "url": "https://www.further.group/",
+      "media": {
+        "thumbnail": "assets/further-thumb.webp",
+        "fullpage": "assets/further-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 38,
+      "slot": 37,
+      "title": "Future",
+      "url": "https://future.co/",
+      "media": {
+        "thumbnail": "assets/future-thumb.webp",
+        "fullpage": "assets/future-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 39,
+      "slot": 38,
+      "title": "FUTURE THREE",
+      "url": "https://www.futurethree.studio/",
+      "media": {
+        "thumbnail": "assets/futurethree-thumb.webp",
+        "fullpage": "assets/futurethree-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 40,
+      "slot": 39,
+      "title": "Generous Branding",
+      "url": "https://generousbranding.com/",
+      "media": {
+        "thumbnail": "assets/generousbranding-thumb.webp",
+        "fullpage": "assets/generousbranding-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 41,
+      "slot": 40,
+      "title": "Glyphic",
+      "url": "https://www.glyphic.bio/",
+      "media": {
+        "thumbnail": "assets/glyphic-thumb.webp",
+        "fullpage": "assets/glyphic-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 42,
+      "slot": 41,
+      "title": "Grace Brigade",
+      "url": "https://www.gracebrigade.com/",
+      "media": {
+        "thumbnail": "assets/gracebrigade-thumb.webp",
+        "fullpage": "assets/gracebrigade-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 43,
+      "slot": 42,
+      "title": "Greptile",
+      "url": "https://www.greptile.com/",
+      "media": {
+        "thumbnail": "assets/greptile-thumb.webp",
+        "fullpage": "assets/greptile-fullpage.webp",
+        "video": "assets/greptile-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 44,
+      "slot": 43,
+      "title": "Haley Park",
+      "url": "https://haleypark.design/",
+      "media": {
+        "thumbnail": "assets/haleypark-thumb.webp",
+        "fullpage": "assets/haleypark-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "vibrant"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "sans",
+        "category": "photography"
+      }
+    },
+    {
+      "id": 45,
+      "slot": 44,
+      "title": "Heyato",
+      "url": "https://www.heyato.ai/",
+      "media": {
+        "thumbnail": "assets/heyato-thumb.webp",
+        "fullpage": "assets/heyato-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 46,
+      "slot": 45,
+      "title": "House of Honey",
+      "url": "https://www.houseofhoney.com/",
+      "media": {
+        "thumbnail": "assets/houseofhoney-thumb.webp",
+        "fullpage": "assets/houseofhoney-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 47,
+      "slot": 46,
+      "title": "Huehaus Agency",
+      "url": "https://huehaus.design/",
+      "media": {
+        "thumbnail": "assets/huehausagency-thumb.webp",
+        "fullpage": "assets/huehausagency-fullpage.webp",
+        "video": "assets/huehausagency-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 48,
+      "slot": 47,
+      "title": "Humble",
+      "url": "https://humbleops.ai/",
+      "media": {
+        "thumbnail": "assets/humble-thumb.webp",
+        "fullpage": "assets/humble-fullpage.webp",
+        "video": "assets/humble-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 49,
+      "slot": 48,
+      "title": "Interlude",
+      "url": "https://interludeapp.net/",
+      "media": {
+        "thumbnail": "assets/interlude-thumb.webp",
+        "fullpage": "assets/interlude-fullpage.webp",
+        "video": "assets/interlude-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 50,
+      "slot": 49,
+      "title": "Juan Mora",
+      "url": "https://juanmora.co/",
+      "media": {
+        "thumbnail": "assets/juanmora-thumb.webp",
+        "fullpage": "assets/juanmora-fullpage.webp",
+        "video": "assets/juanmora-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 51,
+      "slot": 50,
+      "title": "Lama Lama",
+      "url": "https://lamalama.com/",
+      "media": {
+        "thumbnail": "assets/lamalama-thumb.webp",
+        "fullpage": "assets/lamalama-fullpage.webp",
+        "video": "assets/lamalama-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 52,
+      "slot": 51,
+      "title": "Lando Norris",
+      "url": "https://landonorris.com/",
+      "media": {
+        "thumbnail": "assets/landonorris-thumb.webp",
+        "fullpage": "assets/landonorris-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "sports"
+      }
+    },
+    {
+      "id": 53,
+      "slot": 52,
+      "title": "Le OFF Paris",
+      "url": "https://leoff-paris.com/en/",
+      "media": {
+        "thumbnail": "assets/leoffparis-thumb.webp",
+        "fullpage": "assets/leoffparis-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "fashion"
+      }
+    },
+    {
+      "id": 54,
+      "slot": 53,
+      "title": "LimeIQ",
+      "url": "https://www.limeiq.com/",
+      "media": {
+        "thumbnail": "assets/limeiq-thumb.webp",
+        "fullpage": "assets/limeiq-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "food"
+      }
+    },
+    {
+      "id": 55,
+      "slot": 54,
+      "title": "Linear",
+      "url": "https://linear.app/",
+      "media": {
+        "thumbnail": "assets/linear-thumb.webp",
+        "fullpage": "assets/linear-fullpage.webp",
+        "video": "assets/linear-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 56,
+      "slot": 55,
+      "title": "Lobb’s Padel",
+      "url": "https://lobbspadel.com/",
+      "media": {
+        "thumbnail": "assets/lobbspadel-thumb.webp",
+        "fullpage": "assets/lobbspadel-fullpage.webp",
+        "video": "assets/lobbspadel-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 57,
+      "slot": 56,
+      "title": "Luffu",
+      "url": "https://luffu.com/",
+      "media": {
+        "thumbnail": "assets/luffu-thumb.webp",
+        "fullpage": "assets/luffu-fullpage.webp",
+        "video": "assets/luffu-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 58,
+      "slot": 57,
+      "title": "Maps",
+      "url": "https://www.wearemapsmusic.com/",
+      "media": {
+        "thumbnail": "assets/maps-thumb.webp",
+        "fullpage": "assets/maps-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "music"
+      }
+    },
+    {
+      "id": 59,
+      "slot": 58,
+      "title": "Marblex",
+      "url": "https://www.marblex.io/en",
+      "media": {
+        "thumbnail": "assets/marblex-thumb.webp",
+        "fullpage": "assets/marblex-fullpage.webp",
+        "video": "assets/marblex-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 60,
+      "slot": 59,
+      "title": "MassiveMusic",
+      "url": "https://www.massivemusic.com/",
+      "media": {
+        "thumbnail": "assets/massivemusic-thumb.webp",
+        "fullpage": "assets/massivemusic-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "music"
+      }
+    },
+    {
+      "id": 61,
+      "slot": 60,
+      "title": "Microsoft AI",
+      "url": "https://microsoft.ai/",
+      "media": {
+        "thumbnail": "assets/microsoftai-thumb.webp",
+        "fullpage": "assets/microsoftai-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 62,
+      "slot": 61,
+      "title": "MindMarket",
+      "url": "https://mindmarket.com/",
+      "media": {
+        "thumbnail": "assets/mindmarket-thumb.webp",
+        "fullpage": "assets/mindmarket-fullpage.webp",
+        "video": "assets/mindmarket-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 63,
+      "slot": 62,
+      "title": "Mojo Studio",
+      "url": "https://mojostudio.co/",
+      "media": {
+        "thumbnail": "assets/mojostudio-thumb.webp",
+        "fullpage": "assets/mojostudio-fullpage.webp",
+        "video": "assets/mojostudio-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 64,
+      "slot": 63,
+      "title": "Molecular Sound",
+      "url": "https://www.molecularsound.com/",
+      "media": {
+        "thumbnail": "assets/molecularsound-thumb.webp",
+        "fullpage": "assets/molecularsound-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "music"
+      }
+    },
+    {
+      "id": 65,
+      "slot": 64,
+      "title": "MoMoney",
+      "url": "https://www.museumofmoney.com/",
+      "media": {
+        "thumbnail": "assets/momoney-thumb.webp",
+        "fullpage": "assets/momoney-fullpage.webp",
+        "video": "assets/momoney-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 66,
+      "slot": 65,
+      "title": "Moneda",
+      "url": "https://moneda.com/",
+      "media": {
+        "thumbnail": "assets/moneda-thumb.webp",
+        "fullpage": "assets/moneda-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 67,
+      "slot": 66,
+      "title": "Monolog",
+      "url": "https://bymonolog.com/",
+      "media": {
+        "thumbnail": "assets/monolog-thumb.webp",
+        "fullpage": "assets/monolog-fullpage.webp",
+        "video": "assets/monolog-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "low",
+        "typography": "serif",
+        "category": "product"
+      }
+    },
+    {
+      "id": 68,
+      "slot": 67,
+      "title": "Monologue",
+      "url": "https://www.monologue.to/",
+      "media": {
+        "thumbnail": "assets/monologue-thumb.webp",
+        "fullpage": "assets/monologue-fullpage.webp",
+        "video": "assets/monologue-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 69,
+      "slot": 68,
+      "title": "Motion",
+      "url": "https://motion.dev/",
+      "media": {
+        "thumbnail": "assets/motion-thumb.webp",
+        "fullpage": "assets/motion-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "full-bleed",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 70,
+      "slot": 69,
+      "title": "Mùn Rooftop Rome",
+      "url": "https://munrooftoprome.com/",
+      "media": {
+        "thumbnail": "assets/munrooftoprome-thumb.webp",
+        "fullpage": "assets/munrooftoprome-fullpage.webp",
+        "video": "assets/munrooftoprome-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "hospitality"
+      }
+    },
+    {
+      "id": 71,
+      "slot": 70,
+      "title": "Offsite",
+      "url": "https://www.off.site/",
+      "media": {
+        "thumbnail": "assets/offsite-thumb.webp",
+        "fullpage": "assets/offsite-fullpage.webp",
+        "video": "assets/offsite-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 72,
+      "slot": 71,
+      "title": "Ogaki Digital",
+      "url": "https://www.ogakidigital.com/",
+      "media": {
+        "thumbnail": "assets/ogakidigital-thumb.webp",
+        "fullpage": "assets/ogakidigital-fullpage.webp",
+        "video": "assets/ogakidigital-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 73,
+      "slot": 72,
+      "title": "Outseta",
+      "url": "https://www.outseta.com/",
+      "media": {
+        "thumbnail": "assets/outseta-thumb.webp",
+        "fullpage": "assets/outseta-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 74,
+      "slot": 73,
+      "title": "OWO",
+      "url": "https://owo.app/",
+      "media": {
+        "thumbnail": "assets/owo-thumb.webp",
+        "fullpage": "assets/owo-fullpage.webp",
+        "video": "assets/owo-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 75,
+      "slot": 74,
+      "title": "Paradigm",
+      "url": "https://www.paradigmai.com/",
+      "media": {
+        "thumbnail": "assets/paradigm-thumb.webp",
+        "fullpage": "assets/paradigm-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 76,
+      "slot": 75,
+      "title": "Proofmode",
+      "url": "https://proofmode.org/",
+      "media": {
+        "thumbnail": "assets/proofmode-thumb.webp",
+        "fullpage": "assets/proofmode-fullpage.webp",
+        "video": "assets/proofmode-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 77,
+      "slot": 76,
+      "title": "Quoti",
+      "url": "https://www.getquoti.ai/",
+      "media": {
+        "thumbnail": "assets/quoti-thumb.webp",
+        "fullpage": "assets/quoti-fullpage.webp",
+        "video": "assets/quoti-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 78,
+      "slot": 77,
+      "title": "Ragged Edge",
+      "url": "https://raggededge.com/",
+      "media": {
+        "thumbnail": "assets/raggededge-thumb.webp",
+        "fullpage": "assets/raggededge-fullpage.webp",
+        "video": "assets/raggededge-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 79,
+      "slot": 78,
+      "title": "React Email",
+      "url": "https://react.email/",
+      "media": {
+        "thumbnail": "assets/reactemail-thumb.webp",
+        "fullpage": "assets/reactemail-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "vibrant"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 80,
+      "slot": 79,
+      "title": "ReadMe",
+      "url": "https://readme.com/",
+      "media": {
+        "thumbnail": "assets/readme-thumb.webp",
+        "fullpage": "assets/readme-fullpage.webp",
+        "video": "assets/readme-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "cool",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 81,
+      "slot": 80,
+      "title": "Robot",
+      "url": "https://www.robot.com/",
+      "media": {
+        "thumbnail": "assets/robot-thumb.webp",
+        "fullpage": "assets/robot-fullpage.webp",
+        "video": "assets/robot-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 82,
+      "slot": 81,
+      "title": "Rollups",
+      "url": "https://www.rollups.com/",
+      "media": {
+        "thumbnail": "assets/rollups-thumb.webp",
+        "fullpage": "assets/rollups-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "neutral",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 83,
+      "slot": 82,
+      "title": "SAMI",
+      "url": "https://sami.marketing/en",
+      "media": {
+        "thumbnail": "assets/sami-thumb.webp",
+        "fullpage": "assets/sami-fullpage.webp",
+        "video": "assets/sami-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 84,
+      "slot": 83,
+      "title": "Satius",
+      "url": "https://www.satius.app/",
+      "media": {
+        "thumbnail": "assets/satius-thumb.webp",
+        "fullpage": "assets/satius-fullpage.webp",
+        "video": "assets/satius-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 85,
+      "slot": 84,
+      "title": "Selvin Cortez",
+      "url": "https://selvincortez.com/",
+      "media": {
+        "thumbnail": "assets/selvincortez-thumb.webp",
+        "fullpage": "assets/selvincortez-fullpage.webp",
+        "video": "assets/selvincortez-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "portfolio"
+      }
+    },
+    {
+      "id": 86,
+      "slot": 85,
+      "title": "Solidroad",
+      "url": "https://www.solidroad.com/",
+      "media": {
+        "thumbnail": "assets/solidroad-thumb.webp",
+        "fullpage": "assets/solidroad-fullpage.webp",
+        "video": "assets/solidroad-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 87,
+      "slot": 86,
+      "title": "Stackbyte",
+      "url": "https://stackbyte.dev/",
+      "media": {
+        "thumbnail": "assets/stackbyte-thumb.webp",
+        "fullpage": "assets/stackbyte-fullpage.webp",
+        "video": "assets/stackbyte-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "cool",
+          "vibrant"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 88,
+      "slot": 87,
+      "title": "Structured Money",
+      "url": "structured.money",
+      "media": {
+        "thumbnail": "assets/structuredmoney-thumb.webp",
+        "fullpage": "assets/structuredmoney-fullpage.webp",
+        "video": "assets/structuredmoney-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "dark",
+          "warm",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "low",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 89,
+      "slot": 88,
+      "title": "Subframe",
+      "url": "https://www.subframe.com/",
+      "media": {
+        "thumbnail": "assets/subframe-thumb.webp",
+        "fullpage": "assets/subframe-fullpage.webp",
+        "video": "assets/subframe-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 90,
+      "slot": 89,
+      "title": "Sunset",
+      "url": "https://www.hellosunset.com/",
+      "media": {
+        "thumbnail": "assets/sunset-thumb.webp",
+        "fullpage": "assets/sunset-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 91,
+      "slot": 90,
+      "title": "Superhuman",
+      "url": "https://superhuman.com/",
+      "media": {
+        "thumbnail": "assets/superhuman-thumb.webp",
+        "fullpage": "assets/superhuman-fullpage.webp",
+        "video": "assets/superhuman-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "low",
+        "typography": "sans",
+        "category": "tech"
+      }
+    },
+    {
+      "id": 92,
+      "slot": 91,
+      "title": "Synthesis",
+      "url": "https://www.synthesis.partners/",
+      "media": {
+        "thumbnail": "assets/synthesis-thumb.webp",
+        "fullpage": "assets/synthesis-fullpage.webp",
+        "video": "assets/synthesis-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 93,
+      "slot": 92,
+      "title": "Taste Labs",
+      "url": "https://tastelabs.com/",
+      "media": {
+        "thumbnail": "assets/tastelabs-thumb.webp",
+        "fullpage": "assets/tastelabs-fullpage.webp",
+        "video": "assets/tastelabs-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 94,
+      "slot": 93,
+      "title": "Tavus",
+      "url": "https://www.tavus.io/",
+      "media": {
+        "thumbnail": "assets/tavus-thumb.webp",
+        "fullpage": "assets/tavus-fullpage.webp",
+        "video": "assets/tavus-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 95,
+      "slot": 94,
+      "title": "Taya",
+      "url": "https://tayanecklace.com/",
+      "media": {
+        "thumbnail": "assets/taya-thumb.webp",
+        "fullpage": "assets/taya-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "fashion"
+      }
+    },
+    {
+      "id": 96,
+      "slot": 95,
+      "title": "Tesoro",
+      "url": "https://www.tesoroxp.com/",
+      "media": {
+        "thumbnail": "assets/tesoro-thumb.webp",
+        "fullpage": "assets/tesoro-fullpage.webp",
+        "video": "assets/tesoro-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 97,
+      "slot": 96,
+      "title": "Tinker",
+      "url": "https://www.tinker.com/",
+      "media": {
+        "thumbnail": "assets/tinker-thumb.webp",
+        "fullpage": "assets/tinker-fullpage.webp",
+        "video": "assets/tinker-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "warm",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 98,
+      "slot": 97,
+      "title": "TinyWins",
+      "url": "https://www.tinywins.com/",
+      "media": {
+        "thumbnail": "assets/tinywins-thumb.webp",
+        "fullpage": "assets/tinywins-fullpage.webp",
+        "video": "assets/tinywins-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 99,
+      "slot": 98,
+      "title": "Truus",
+      "url": "https://truus.co/",
+      "media": {
+        "thumbnail": "assets/truus-thumb.webp",
+        "fullpage": "assets/truus-fullpage.webp",
+        "video": "assets/truus-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "muted",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "editorial",
+        "motion": "medium",
+        "typography": "display-serif",
+        "category": "brand"
+      }
+    },
+    {
+      "id": 100,
+      "slot": 99,
+      "title": "Usefoulplay",
+      "url": "https://www.usefoulplay.com/",
+      "media": {
+        "thumbnail": "assets/usefoulplay-thumb.webp",
+        "fullpage": "assets/usefoulplay-fullpage.webp",
+        "video": "assets/usefoulplay-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "asymmetric",
+        "motion": "high",
+        "typography": "display-serif",
+        "category": "studio"
+      }
+    },
+    {
+      "id": 101,
+      "slot": 100,
+      "title": "Vovy",
+      "url": "https://www.vovy.ai/",
+      "media": {
+        "thumbnail": "assets/vovy-thumb.webp",
+        "fullpage": "assets/vovy-fullpage.webp",
+        "video": "assets/vovy-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "cool",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "product"
+      }
+    },
+    {
+      "id": 102,
+      "slot": 101,
+      "title": "WaxyWeb",
+      "url": "https://www.waxyweb.agency/",
+      "media": {
+        "thumbnail": "assets/waxyweb-thumb.webp",
+        "fullpage": "assets/waxyweb-fullpage.webp",
+        "video": "assets/waxyweb-clip.mp4"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "grid",
+        "motion": "medium",
+        "typography": "sans",
+        "category": "agency"
+      }
+    },
+    {
+      "id": 103,
+      "slot": 102,
+      "title": "World Labs",
+      "url": "https://www.worldlabs.ai/",
+      "media": {
+        "thumbnail": "assets/worldlabs-thumb.webp",
+        "fullpage": "assets/worldlabs-fullpage.webp"
+      },
+      "tags": {
+        "palette": [
+          "bright",
+          "neutral",
+          "subtle"
+        ],
+        "layout": "centered",
+        "motion": "high",
+        "typography": "sans",
+        "category": "tech"
+      }
+    }
+  ]
+}

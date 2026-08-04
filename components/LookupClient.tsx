@@ -6,49 +6,21 @@ import { DatasetError } from "@/lib/types";
 import { decodeCodeAgainstDataset } from "@/lib/decode";
 import type { DecodeResult } from "@/lib/decode";
 import { computeProfile } from "@/lib/profile";
-import type { DesignProfile } from "@/lib/profile";
 import DatasetHeader from "./DatasetHeader";
+import LanguageSwitcher from "./LanguageSwitcher";
 import MediaImage from "./MediaImage";
-
-function ProfileBlock({ profile }: { profile: DesignProfile }) {
-  return (
-    <section className="rounded-2xl border border-border-soft bg-primary-soft p-5">
-      <h2 className="text-sm font-bold uppercase tracking-wider text-primary">
-        Design profile
-      </h2>
-      <p className="mt-2 text-base font-medium leading-relaxed">{profile.summary}</p>
-      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
-        {(
-          [
-            ["palette", profile.byCategory.palette],
-            ["layout", profile.byCategory.layout],
-            ["motion", profile.byCategory.motion],
-            ["typography", profile.byCategory.typography],
-            ["category", profile.byCategory.category],
-          ] as const
-        ).map(([label, agg]) => (
-          <div key={label} className="rounded-lg bg-background/70 p-2.5">
-            <div className="text-[10px] font-semibold uppercase tracking-wider text-text/40">
-              {label}
-            </div>
-            <div className="mt-1 text-xs font-medium">
-              {agg.top.length > 0 ? agg.top.join(", ") : "—"}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
+import ProfileBlock from "./ProfileBlock";
 
 export default function LookupClient({
   dataset,
   embed,
   initialCode,
+  locale,
 }: {
   dataset: ResolvedDataset;
   embed: boolean;
   initialCode?: string;
+  locale: string;
 }) {
   const [input, setInput] = useState(initialCode ?? "");
   const [submitted, setSubmitted] = useState<string | null>(
@@ -78,11 +50,17 @@ export default function LookupClient({
 
   return (
     <div className="flex min-h-screen flex-col">
-      {!embed && <DatasetHeader dataset={dataset} mode="lookup" />}
+      {!embed && (
+        <DatasetHeader
+          dataset={dataset}
+          mode="lookup"
+          actions={<LanguageSwitcher current={locale} />}
+        />
+      )}
 
-      <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-8">
         <div className="mx-auto max-w-2xl">
-          <h1 className="text-xl font-bold">Look up a selection</h1>
+          <h1 className="text-2xl font-bold">Look up a selection</h1>
           <p className="mt-1 text-sm text-text/60">
             Paste the code your client generated. The code only works against
             this exact dataset ({dataset.name} v{dataset.version}) — share the
@@ -119,9 +97,9 @@ export default function LookupClient({
         </div>
 
         {result && (
-          <div className="winsip-fade-in mx-auto mt-8 max-w-5xl space-y-6">
+          <div className="winsip-fade-in mx-auto mt-10 w-full max-w-6xl space-y-6">
             <div className="flex flex-wrap items-center gap-3">
-              <h2 className="text-lg font-bold">
+              <h2 className="text-xl font-bold">
                 {result.selectedItems.length} selected
               </h2>
               <span className="rounded-full bg-primary-soft px-3 py-1 text-xs font-medium text-primary">
@@ -145,14 +123,14 @@ export default function LookupClient({
               <>
                 {profile && <ProfileBlock profile={profile} />}
 
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
                   {result.selectedItems.map((item) => (
                     <article key={item.id} className="flex min-w-0 flex-col">
                       <a
                         href={item.media.fullpage ?? item.media.thumbnail}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="relative aspect-[4/5] overflow-hidden rounded-xl border border-border-soft bg-primary-soft"
+                        className="relative aspect-video overflow-hidden rounded-xl border border-border-soft bg-primary-soft"
                       >
                         <MediaImage
                           src={item.media.thumbnail}
@@ -162,7 +140,7 @@ export default function LookupClient({
                         />
                       </a>
                       <div className="mt-2 flex items-center justify-between gap-2">
-                        <h3 className="truncate text-sm font-medium">
+                        <h3 className="truncate text-base font-semibold">
                           {item.title}
                         </h3>
                         {item.url && (
@@ -171,13 +149,13 @@ export default function LookupClient({
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label={`Open ${item.title} live`}
-                            className="shrink-0 text-xs text-text/50 transition-colors hover:text-primary"
+                            className="shrink-0 text-sm text-text/50 transition-colors hover:text-primary"
                           >
                             Open site ↗
                           </a>
                         )}
                       </div>
-                      <p className="mt-0.5 truncate text-[11px] uppercase tracking-wide text-text/50">
+                      <p className="mt-1 truncate text-xs uppercase tracking-wide text-text/50">
                         {item.tags.category}
                       </p>
                     </article>

@@ -8,11 +8,13 @@ export default function MediaVideo({
   className,
   kind,
   fallback,
+  controls = false,
 }: {
   src?: string;
   className?: string;
   kind: "builtin" | "byo";
   fallback?: React.ReactNode;
+  controls?: boolean;
 }) {
   const [ready, setReady] = useState<"loading" | "ok" | "fail">(
     kind === "builtin" ? "ok" : "loading"
@@ -52,6 +54,7 @@ export default function MediaVideo({
       loop
       playsInline
       autoPlay
+      controls={controls}
       preload="none"
       onError={() => setReady("fail")}
     />

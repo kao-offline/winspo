@@ -15,6 +15,7 @@ export default async function DatasetLookupPage({
   const query = await searchParams;
   const embed = query.embed === "true";
   const initialCode = typeof query.code === "string" ? query.code : undefined;
+  const lang = typeof query.lang === "string" ? query.lang : undefined;
 
   return (
     <DatasetAppShell
@@ -23,6 +24,7 @@ export default async function DatasetLookupPage({
       embed={embed}
       initialCode={initialCode}
       builtin
+      lang={lang}
     />
   );
 }

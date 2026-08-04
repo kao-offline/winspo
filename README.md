@@ -11,17 +11,27 @@ A serverless, no-login app for turning your client's design-reference picks into
 
 ## Try it
 
-- **Browse + select** a dataset, e.g. `https://winspo.example/kao`
-- **Generated code screen**: `https://winspo.example/kao?code=7`
-- **Decode + profile**: `https://winspo.example/kao/lookup?code=7`
+- **Home / landing**: `https://winspo.example/home`
+- **Root dataset** (~100 curated references): `https://winspo.example/`
+- **Developer tools**: `https://winspo.example/dev`
+- **Browse + select** a dataset, e.g. `https://winspo.example/root`
+- **Generated code screen**: `https://winspo.example/root?code=7`
+- **Decode + profile**: `https://winspo.example/root/lookup?code=7`
 
-## Built-in datasets
+## Routes
 
 | Path | Contents |
 | --- | --- |
-| `/kao` (alias `/root`) | 44 curated website references |
+| `/` | The root dataset — ~100 curated references across tech, studios, agencies, portfolios, brands, food, fashion, music and more |
+| `/home` | Landing page + dataset picker |
+| `/manual` | User manual — localized into all 24 EU official languages (auto-detected by IP, override with `?lang=xx`) |
+| `/dev` | Developer tools: API playground, dataset format, embed contract |
+| `/root` | Alias for the root dataset |
+| `/kao` | The original 44-reference gallery |
 | `/illustro` | coming soon |
 | `/tech` | coming soon |
+
+On any dataset you can switch between **grid view** (search + tap to select) and **Swipe mode** (Tinder-style: flip through cards, like/skip, arrow keys supported). A welcome tutorial shows on first visit.
 
 ## BYO dataset
 
@@ -104,7 +114,7 @@ All endpoints accept `GET` + `OPTIONS` with CORS `Access-Control-Allow-Origin: *
 
 ### `GET /api/datasets/{source}`
 
-Full dataset manifest. `{source}` can be a built-in (`kao`) or a BYO path (`byo/{user}/{repo}@{ref}`).
+Full dataset manifest. `{source}` can be a built-in (`root`, `kao`) or a BYO path (`byo/{user}/{repo}@{ref}`).
 
 ### `GET /api/encode?dataset={source}&slots={comma-separated}`
 
@@ -166,10 +176,11 @@ npm run lint
 npm run build
 ```
 
-The built-in `kao` dataset was generated from a local gallery folder with:
+The built-in datasets were generated from a local gallery folder with:
 
 ```bash
-npm run datasets:convert
+npm run datasets:convert            # regenerates the `kao` dataset
+npm run datasets:convert root       # regenerates the ~100-reference `root` dataset
 ```
 
 This is an experimental reimplementation of a client-mockup tool with a much simpler architecture: no accounts, no database, no external storage.

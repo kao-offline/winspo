@@ -2,6 +2,8 @@ import { headers } from "next/headers";
 import { notFound } from "next/navigation";
 import { DatasetError } from "@/lib/types";
 import { getBuiltinEntry, resolveDataset } from "@/lib/datasets";
+import { detectLocale, localeFromCountryHeader } from "@/lib/geo";
+import { FALLBACK_LOCALE } from "@/lib/i18n";
 import ThemeProvider from "./ThemeProvider";
 import GalleryClient from "./GalleryClient";
 import LookupClient from "./LookupClient";
@@ -14,15 +16,23 @@ export default async function DatasetAppShell({
   embed,
   initialCode,
   builtin = false,
+  lang,
 }: {
   source: string;
   mode: "gallery" | "lookup";
   embed: boolean;
   initialCode?: string;
   builtin?: boolean;
+  lang?: string;
 }) {
   const headerList = await headers();
   const ip = headerList.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "local";
+  const country =
+    headerList.get("x-vercel-ip-country") ?? headerList.get("cf-ipcountry");
+  const locale =
+    lang ??
+    localeFromCountryHeader(country) ??
+    (await detectLocale(ip).catch(() => FALLBACK_LOCALE));
 
   let dataset;
   try {
@@ -54,9 +64,19 @@ export default async function DatasetAppShell({
   return (
     <ThemeProvider config={dataset.config}>
       {mode === "gallery" ? (
-        <GalleryClient dataset={dataset} embed={embed} initialCode={initialCode} />
+        <GalleryClient
+          dataset={dataset}
+          embed={embed}
+          initialCode={initialCode}
+          locale={locale}
+        />
       ) : (
-        <LookupClient dataset={dataset} embed={embed} initialCode={initialCode} />
+        <LookupClient
+          dataset={dataset}
+          embed={embed}
+          initialCode={initialCode}
+          locale={locale}
+        />
       )}
     </ThemeProvider>
   );

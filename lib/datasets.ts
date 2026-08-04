@@ -1,4 +1,5 @@
 import kaoManifest from "../datasets/kao/winspo.json";
+import rootManifest from "../datasets/root/winspo.json";
 import { DatasetError } from "./types";
 import type { DatasetManifest, ResolvedDataset, ResolvedItem } from "./types";
 import { parseByoSource, fetchByoDataset, isByoSource } from "./byo";
@@ -24,9 +25,8 @@ export const BUILTIN_REGISTRY: DatasetEntry[] = [
   {
     id: "root",
     name: "Root",
-    description: "General-purpose, broad mix of website styles.",
+    description: "A general-purpose mix of ~100 real websites spanning tech, studios, agencies, portfolios, brands, food, fashion, music and more.",
     accent: "#E8552B",
-    aliasOf: "kao",
   },
   {
     id: "illustro",
@@ -46,6 +46,7 @@ export const BUILTIN_REGISTRY: DatasetEntry[] = [
 
 const BUILTIN_MANIFESTS: Record<string, DatasetManifest> = {
   kao: kaoManifest as unknown as DatasetManifest,
+  root: rootManifest as unknown as DatasetManifest,
 };
 
 export function getBuiltinEntry(id: string): DatasetEntry | undefined {
