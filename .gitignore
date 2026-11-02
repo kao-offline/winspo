@@ -42,3 +42,6 @@ next-env.d.ts
 
 # local server logs
 server-start.log
+
+# Cloudflare local state
+.wrangler/
