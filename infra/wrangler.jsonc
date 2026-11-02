@@ -1,0 +1,8 @@
+{
+  "name": "winspo-router",
+  "main": "winspo-router.mjs",
+  "compatibility_date": "2026-11-02",
+  "workers_dev": false,
+  "routes": [{ "pattern": "winspo.kaooffline.top/*", "zone_name": "kaooffline.top" }],
+  "observability": { "enabled": true }
+}
